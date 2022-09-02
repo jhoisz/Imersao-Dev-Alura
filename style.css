@@ -1,8 +1,9 @@
 body {
     font-family: 'Roboto Mono',monospace;
     min-height: 400px;
-    background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
-    background-color: #000000;
+    background-image: url('https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-color: blue; 
+    /* mudei aqui ^ */
     background-size: 80vh;
     background-position: center bottom;
     background-repeat: no-repeat;
