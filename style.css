@@ -14,9 +14,13 @@ body {
     padding: 64px;
 }
 
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
 .perfil {
     display: flex;
-    align-items: center;
 }
 
 .perfil-foto {
@@ -39,19 +43,60 @@ body {
     font-size: 24px;
 }
 
-/* alterei alguns estilos aqui */
+.tema button {
+    align-self: flex-end;
+    font-size: 16px;
+    padding: 8px 16px;
+    background: #ecf4ff;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 2px solid #0e1d2f;
+  }
+
 .projetos {
-    margin-top: 30px;
-    border-radius: 20px;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
     display: flex;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     flex-direction: column;
-    color: antiquewhite;
-    /* align-items: center; */
+    background: linear-gradient(238.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    margin-top: 32px;
+    padding: 32px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+
+}
+.projetos-titulo {
+    list-style: none;
+    font-weight: 700;
+    font-size: 36px;
 }
 
-.projetos a {
-    text-decoration: none;
-    color: antiquewhite;
+.projetos-item {
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
 }
+
+.projetos-item a {
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+.dark {
+    background: linear-gradient(236.85deg, #375886 27.26%, #6887A9 96.83%);
+}
+
+.dark .container {
+    background: #333439;
+    color: #F6F6F6;
+}
+
+.dark .projetos {
+    color: #1C1C1C;
+}
+
+.dark .tema button {
+    background: #1C1C1C;
+    color: #ffffff;
+    border: 2px solid #f7f7f7;
+}
+
