@@ -26,8 +26,6 @@ Caso queira saber mais sobre HTML, CSS e JavaScript, recomendo a leitura do arti
 ## :arrow_forward: Como executar
 Você pode acessar o codepen e copiar os códigos nas respectivas abas de HTML, CSS e JavaScript, **ou** faça um clone do projeto, abra a pasta, navegue para a branch do projeto de aula específico que deseja acessar e abra o arquivo `index.html`:
 
-Então, você pode clocar e entrar na pasta do projeto:
-
 ```bash
 git clone https://github.com/jhoisz/Imersao-Dev-Alura
 cd Imersao-Dev-Alura
